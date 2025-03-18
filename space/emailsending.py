@@ -1,8 +1,8 @@
 import smtplib
 def send_mail(message):
-    email = "patrick.nuvvu@gmail.com"
-    password = "rrcetpcbzhqsegmq"
-    to_email = "harthik.cygnusx1@gmail.com"
+    email = "_"
+    password = "_"
+    to_email = "_"
 
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
